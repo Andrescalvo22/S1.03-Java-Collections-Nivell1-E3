@@ -5,7 +5,7 @@ import java.util.Scanner;
 public class Main {
     public static void main(String[] args) {
         try {
-            Map<String, String> data = CountryCapitalReader.fromCountries("countries.txt");
+            Map<String, String> data = CountryCapitalReader.fromCountries(".idea/countries.txt");
 
             Scanner scanner = new Scanner(System.in);
             System.out.print("Username: ");
@@ -15,7 +15,7 @@ public class Main {
             int score = game.play(username);
 
             ScoreManager scoreManager = new ScoreManager();
-            scoreManager.saveScore("classificacio.txt", username, score);
+            scoreManager.saveScore(".idea/classification.txt", username, score);
 
         } catch (IOException e) {
             System.err.println("Error loading Data: " + e.getMessage());

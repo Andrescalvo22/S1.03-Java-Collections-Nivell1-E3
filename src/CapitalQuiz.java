@@ -28,7 +28,7 @@ public class CapitalQuiz {
                 System.out.println("False! The correct capital is: " + capital);
             }
         }
-        System.out.println("\n" + userName + " has achieved + " + score + "points!");
+        System.out.println("\n" + userName + " has achieved + " + score + " points! ");
         return score;
     }
 

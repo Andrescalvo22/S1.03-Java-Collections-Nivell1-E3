@@ -1,39 +1,40 @@
-# 📄Descripció - Enunciat de l'exercici
+# 📄Description – Exercise Statement
+Read a file containing countries and their capitals, and store them in a HashMap.
+The user must guess the capital of 10 random countries.
+At the end, their name and score are saved in the file classificacio.txt.
 
-Llegir un fitxer amb països i capitals i guardar-los en un `HashMap`.  
-L’usuari ha d’endevinar la capital de 10 països aleatoris.  
-Al final, es desa el seu nom i puntuació al fitxer `classificacio.txt`.
+# 💻Technologies Used
+Java SE 21
 
+Libraries: HashMap, File, Scanner, Random
 
-# 💻Tecnologies Utilitzades
+Files: countries.txt, classificacio.txt
 
-- Java SE 11  
-- Llibreries: `HashMap`, `File`, `Scanner`, `Random`  
-- Fitxers: `countries.txt`, `classificacio.txt`  
-- IDE (IntelliJ, Eclipse, etc.)
+IDE (IntelliJ, Eclipse, etc.)
 
-# 📋Requisits
+# 📋Requirements
+Java JDK 21 or higher
 
-- Java JDK 11 o superior  
-- Coneixement bàsic de gestió de fitxers i col·leccions en Java
+Basic knowledge of file handling and collections in Java
 
-# 🛠️Instal·lació
+# 🛠️Installation
+Clone or download the project.
 
-1. Clonar o descarregar el projecte.  
-2. Assegurar-se que el fitxer `countries.txt` es troba al directori del projecte.  
-3. Obrir-lo en un IDE i compilar les classes.
+Make sure the file countries.txt is in the project directory.
 
-# ▶️Execució
+Open it in an IDE and compile the classes.
 
-1. Executar la classe principal.  
-2. Introdueix el nom d’usuari quan es demani.  
-3. Escriu la capital corresponent als 10 països que es mostren.  
-4. La puntuació final es guarda a `classificacio.txt`.
+# ▶️Execution
+Run the main class.
 
-# 🌐Desplegament
+Enter your username when prompted.
 
-Aquest projecte està pensat per a ser executat localment com a pràctica, per tant, no disposa d’un procés específic de desplegament.
+Type the correct capital for each of the 10 displayed countries.
 
-# 🤝Contribucions
+The final score will be saved to classificacio.txt.
 
-Fer fork, crear branca, commit i enviar pull request.
+# 🌐Deployment
+This project is intended to be run locally as a practice exercise, and therefore has no specific deployment process.
+
+# 🤝Contributions
+Fork the repository, create a branch, commit your changes, and submit a pull request.

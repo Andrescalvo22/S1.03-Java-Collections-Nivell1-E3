@@ -1,6 +1,9 @@
-import java.io.*;
-import java.nio.file.*;
-import java.util.*;
+import java.io.BufferedReader;
+import java.io.IOException;
+import java.nio.file.Files;
+import java.nio.file.Paths;
+import java.util.HashMap;
+import java.util.Map;
 
 public class CountryCapitalReader {
     public static Map<String, String> fromCountries(String fileName) throws IOException {
